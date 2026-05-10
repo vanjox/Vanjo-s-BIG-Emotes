@@ -13,4 +13,4 @@ Now includes a settings popup with a live emote scale slider.
 
 ## Usage
 
-Click the extension icon and adjust the slider.
+Click the extension icon and adjust the slider. Refresh (F5).
