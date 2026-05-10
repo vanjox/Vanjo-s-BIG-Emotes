@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "Vanjo's BIG Emotes",
+  "version": "2.1.0",
+  "description": "Makes Twitch, BTTV, FFZ and 7TV emotes bigger in chat with adjustable scaling.",
+
+  "permissions": [
+    "storage"
+  ],
+
+  "icons": {
+    "128": "icon128.png"
+  },
+
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Big Emotes Settings",
+
+    "default_icon": {
+      "128": "icon128.png"
+    }
+  },
+
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.twitch.tv/*",
+        "*://*.kick.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "styles.css"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
