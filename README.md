@@ -1,4 +1,4 @@
-# Vanjo's BIG Emotes
+# Vanjo's BIG Emotes Userscript
 # Twitch & Kick support
 
 Now includes a settings popup with a live emote scale slider.
